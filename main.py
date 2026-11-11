@@ -278,7 +278,7 @@ class Jogo:
                 self.tela.blit(self.meteoro, meteoro.move(-9, -6))
             texto(self.tela, self.fonte, f"Piloto: {self.nome}", 25, 20)
             texto(self.tela, self.fonte, f"Fase: {self.pontos + 1}", 25, 55, AMARELO)
-            texto(self.tela, self.fonte_p, "Press Space to Pause Game", 18, ALTURA - 35, (162, 185, 205))
+            texto(self.tela, self.fonte_p, "Pressione ESPAÇO para pausar", 18, ALTURA - 35, (162, 185, 205))
             if self.pausado:
                 escurecer = pygame.Surface((LARGURA, ALTURA), pygame.SRCALPHA)
                 escurecer.fill((4, 9, 25, 185))
