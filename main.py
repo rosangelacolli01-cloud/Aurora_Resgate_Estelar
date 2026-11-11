@@ -268,7 +268,7 @@ class Jogo:
             texto(self.tela, self.fonte, f"Piloto: {self.nome}", 500, 240, AMARELO, True)
             texto(self.tela, self.fonte, "Sua nave precisa desviar dos meteoros pelo espaço.", 500, 291, BRANCO, True)
             texto(self.tela, self.fonte, "Use SETA CIMA / BAIXO ou W / S: somente eixo Y.", 500, 332, BRANCO, True)
-            texto(self.tela, self.fonte_p, "Ganhe 1 ponto a cada meteoro que atravessar a tela.", 500, 372, BRANCO, True)
+            texto(self.tela, self.fonte_p, "Avance uma fase a cada meteoro desviado.", 500, 372, BRANCO, True)
             self.desenhar_recorde(422)
             botao(self.tela, self.fonte, "INICIAR PARTIDA", self.botao_iniciar, pygame.mouse.get_pos())
         elif self.estado == "jogando":
