@@ -283,7 +283,7 @@ class Jogo:
                 escurecer = pygame.Surface((LARGURA, ALTURA), pygame.SRCALPHA)
                 escurecer.fill((4, 9, 25, 185))
                 self.tela.blit(escurecer, (0, 0))
-                texto(self.tela, self.fonte_g, "PAUSE", 500, 325, AMARELO, True)
+                texto(self.tela, self.fonte_g, "jogo pausado", 500, 325, AMARELO, True)
                 texto(self.tela, self.fonte, "Pressione ESPAÇO para continuar", 500, 395, BRANCO, True)
         elif self.estado == "fim":
             painel(self.tela, pygame.Rect(170, 125, 660, 500))
