@@ -69,12 +69,3 @@ Aurora_Resgate_Estelar/
     └── trabalho.py
 ```
 
-## Histórico sugerido de 5 commits (criar de verdade via Git)
-
-1. `feat: iniciar projeto Aurora com estrutura e assets originais`
-2. `feat: implementar tela de nome e boas-vindas com recorde`
-3. `feat: adicionar movimento vertical, meteoros e pontuação`
-4. `feat: implementar pausa, sonda decorativa, estrela pulsante e voz`
-5. `feat: registrar partidas, finalizar README e incluir executável build`
-
-> O ZIP contém o projeto final, **não um histórico Git fabricado**. Para atender à avaliação, esses commits precisam ser realizados enquanto desenvolvem as etapas, em versões progressivas reais. A dupla deve compartilhar o GitHub com `profmarcossantos` (ou `marcos.santos@atitus.edu.br`) e com um colega, que deverá fazer seu próprio commit.
