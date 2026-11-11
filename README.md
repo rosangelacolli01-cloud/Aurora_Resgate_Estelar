@@ -6,10 +6,9 @@
 - **[Rosangela Colli]** — RA: **[1140142]**
 - **[Julia Buffon]** — RA: **[1140323]**
 
-> Preencher com os dados verdadeiros da dupla antes de entregar.
 
 ## História e mecânica
-Em uma região distante do espaço, a piloto da nave **Aurora** precisa atravessar um campo de meteoros e manter a missão de resgate em andamento. A nave fica no lado esquerdo da tela e se desloca **apenas verticalmente (eixo Y)**. Meteoros atravessam o espaço: a cada meteoro evitado, o jogador recebe um ponto e avança uma fase; após a fase 15, aparecem dois meteoros simultaneamente. Uma colisão encerra a partida. Uma pequena sonda faz movimentos aleatórios apenas como enfeite, enquanto uma estrela amarela pulsa no céu.
+Em uma região distante do espaço, a piloto da nave **Aurora** precisa atravessar um campo de meteoros e manter a missão de resgate em andamento. A nave fica no lado esquerdo da tela e se desloca **apenas verticalmente (eixo Y)**. Meteoros atravessam o espaço: a cada meteoro evitado, o jogador recebe um ponto e avança uma fase; após a fase 15, aparecem dois meteoros simultaneamente. Uma colisão encerra a partida. Uma pequena sonda faz movimentos aleatórios apenas como enfeite, enquanto Saturno em cores neon aumenta e diminui lentamente no céu."
 
 A dinâmica de jogador + obstáculos horizontais e o ciclo início/jogo/fim foram adaptados da referência [IronManV2](https://github.com/profmarcossantos/IronManV2), com cenário de galáxia em movimento e paralaxe, nave detalhada, sprites, efeitos sonoros, interface e tema substituídos por recursos originais.
 
